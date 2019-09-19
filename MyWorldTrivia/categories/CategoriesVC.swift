@@ -29,7 +29,7 @@ class CategoriesVC: UIViewController {
     
     @IBAction func toGeographic(_ sender: UIButton) {
         
-                UserDefaults.standard.set("geographic", forKey: "category")
+                UserDefaults.standard.set("geography", forKey: "category")
         
         Utilities.init().sendToAnotherVC(vc: self, storyboard: self.storyboard!, identifier: "gameVCNavigation")
     }
